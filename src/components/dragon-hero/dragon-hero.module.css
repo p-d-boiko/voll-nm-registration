@@ -1,0 +1,17 @@
+.hero {
+  position: relative;
+
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .branding {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 24px;
+    color: #fff;
+  }
+}
