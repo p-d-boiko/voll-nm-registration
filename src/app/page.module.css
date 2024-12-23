@@ -55,6 +55,7 @@
   a {
     display: inline-flex;
     align-items: center;
+    color: inherit;
     gap: 18px;
   }
 }
