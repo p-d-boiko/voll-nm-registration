@@ -1,18 +1,16 @@
-:root {
+.wrapper {
   --field-background: #e6e6e6;
   --error-color: #d32f2f;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --field-background: #2f2424;
-    --error-color: #ff5252;
+  & + & {
+    margin-top: 25px;
   }
 }
 
-.wrapper {
-  & + & {
-    margin-top: 25px;
+@media (prefers-color-scheme: dark) {
+  .wrapper {
+    --field-background: #2f2424;
+    --error-color: #ff5252;
   }
 }
 
@@ -31,45 +29,43 @@
   &:not(:first-of-type) {
     margin-top: 1em;
   }
+}
 
-  legend {
-    font-size: 0.8125em;
-    color: var(--foreground);
-    background-color: var(--background);
-    padding: 2px 12px;
-    margin-left: 0px;
-    offset-anchor: 0;
-    position: absolute;
-    top: -10px;
-  }
+.fieldset legend {
+  font-size: 0.8125em;
+  color: var(--foreground);
+  background-color: var(--background);
+  padding: 2px 12px;
+  margin-left: 0px;
+  offset-anchor: 0;
+  position: absolute;
+  top: -10px;
+}
 
-  &:focus-within {
-    legend {
-      color: var(--heading-color);
-    }
-  }
+.fieldset:focus-within legend {
+  color: var(--heading-color);
+}
 
-  input {
-    font: inherit;
-    background: transparent;
-    border: none;
-    padding: 4px 0;
-    flex-grow: 1;
-  }
+.fieldset input {
+  font: inherit;
+  background: transparent;
+  border: none;
+  padding: 4px 0;
+  flex-grow: 1;
+}
 
-  input:focus {
-    outline: none;
-  }
+.fieldset input:focus {
+  outline: none;
 }
 
 .checkbox {
   display: flex;
   align-items: center;
   gap: 8px;
+}
 
-  a {
-    color: #C9B1B1;
-  }
+.checkbox a {
+  color: #c9b1b1;
 }
 
 .error {

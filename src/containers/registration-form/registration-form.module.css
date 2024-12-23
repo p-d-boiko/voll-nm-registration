@@ -1,23 +1,21 @@
-.form {
-  input[type="submit"] {
-    color: #fff;
-    background: var(--cta-color);
-    border: none;
-    padding: 13px 24px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: 24px;
-    width: 100%;
-    border-radius: 1px;
-    cursor: pointer;
-  }
+.form input[type="submit"] {
+  color: #fff;
+  background: var(--cta-color);
+  border: none;
+  padding: 13px 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 24px;
+  width: 100%;
+  border-radius: 1px;
+  cursor: pointer;
+}
 
-  input[type="submit"]:hover {
-    background: var(--cta-hover-color);
-  }
+.form input[type="submit"]:hover {
+  background: var(--cta-hover-color);
+}
 
-  input[type="submit"]:active {
-    background: var(--cta-color);
-  }
+.form input[type="submit"]:active {
+  background: var(--cta-color);
 }

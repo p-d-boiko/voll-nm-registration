@@ -13,20 +13,20 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-lato);
+}
 
-  h1 {
-    font-size: 46px;
-    font-weight: 700;
-    margin-bottom: 6px;
+.page h1 {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
 
-    span {
-      color: var(--cta-color);
-    }
-  }
+.page h1 span {
+  color: var(--cta-color);
+}
 
-  a {
-    color: var(--cta-color);
-  }
+.page a {
+  color: var(--cta-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,11 +51,11 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
+}
 
-  a {
-    display: inline-flex;
-    align-items: center;
-    color: inherit;
-    gap: 18px;
-  }
+.footer a {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  gap: 18px;
 }
